@@ -14,9 +14,9 @@ def FizzBall():
         tup2 = modf(i/5);
         if (tup1[0] == 0 and tup2[0] == 0):
             print("FizzBuzz");
-        elif (tup1[0] == 0 and tup2[0] != 0):
+        elif (tup1[0] == 0):
             print("Fizz");
-        elif (tup1[0] != 0 and tup2[0] == 0):
+        elif (tup2[0] == 0):
             print("Buzz");
         else:
             print(i);
